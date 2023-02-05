@@ -26,7 +26,7 @@ Package name:
 
 Adding Ubuntu repository (replace NN.NN with the actual version - see available versions at the link above):
 ```
-curl -fsSL https://download.opensuse.org/repositories/home:ars3n1y/xUbuntu_NN.NN/Release.key | sudo apt-key add -
+sudo curl -fsSL https://download.opensuse.org/repositories/home:ars3n1y/xUbuntu_NN.NN/Release.key -o /etc/apt/trusted.gpg.d/tdlib-purple.key
 sudo apt-add-repository 'deb http://download.opensuse.org/repositories/home:/ars3n1y/xUbuntu_NN.NN/ /'
 ```
 
